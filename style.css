@@ -14,6 +14,7 @@ body {
 body {
     background: url(imagens/fundo-madeira.jpg)no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 main {
@@ -36,4 +37,23 @@ main {
     top: 80px;
     height: 470px;
     width: 266px;
+}
+#icones-sociais > a > img{
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.517);
+}
+#icones-sociais > a > img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.64);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.581);
+    box-sizing: border-box;
+    transform: translate(-5px, -5px);
+    transition: all .2s;
+
+}
+#icones-sociais{
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 10px;
 }
